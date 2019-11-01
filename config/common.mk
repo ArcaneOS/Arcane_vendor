@@ -126,7 +126,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 # Arcane Packages
 PRODUCT_PACKAGES += \
-    ThemePicker
+    ThemePicker \
+    ArcaneThemesStub
     
 # SystemUI plugins
 PRODUCT_PACKAGES += \
