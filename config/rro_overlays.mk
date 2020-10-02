@@ -26,3 +26,8 @@ PRODUCT_PACKAGES += \
 # Retro Music
 PRODUCT_PACKAGES += \
     Music
+
+# Overlays
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
