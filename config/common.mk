@@ -349,6 +349,11 @@ PRODUCT_PACKAGES += \
     CustomLauncherOverlay \
     CustomSettingsOverlay
     
+# Ignore overlays on RRO builds
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    packages/overlays/Shishufied/Overlays
+
+
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
