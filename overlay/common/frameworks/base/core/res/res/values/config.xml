@@ -93,4 +93,6 @@
 
     <!-- Allows setting custom fontFeatureSettings on specific text. -->
     <string name="config_headlineFontFeatureSettings">ss03</string>
+    
+    <string name="config_wallpaperCropperPackage">com.android.wallpaper</string>
 </resources>
