@@ -18,3 +18,5 @@ PRODUCT_PACKAGES += \
     FontSamOverlay \
     FontVictorOverlay
 
+PRODUCT_PACKAGES += \
+    ArcaneWallpapers 
