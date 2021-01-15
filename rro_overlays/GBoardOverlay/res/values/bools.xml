@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_keyboard_redesign">true</bool>
+    <bool name="use_keyboard_redesign_theme_by_default">true</bool>
+    <bool name="enable_keyboard_redesign_theme">true</bool>
+</resources>
