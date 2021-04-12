@@ -71,6 +71,7 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # Fonts to copy
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/fonts/fonts_shishufied.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml \
+    vendor/aosp/prebuilt/fonts/anaheim/Anaheim-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Anaheim-Regular.ttf \
     vendor/aosp/prebuilt/fonts/gobold/Gobold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Gobold.ttf \
     vendor/aosp/prebuilt/fonts/gobold/Gobold-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Gobold-Italic.ttf \
     vendor/aosp/prebuilt/fonts/gobold/GoboldBold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoboldBold.ttf \
