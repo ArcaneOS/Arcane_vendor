@@ -185,7 +185,11 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/fonts/fontagev3/VG5000-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/VG5000-Regular.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/Vladisvostok-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Vladisvostok-Regular.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/Volte-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Volte-Bold.ttf \
-    vendor/aosp/prebuilt/fonts/fontagev3/Volte-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Volte-Medium.ttf
+    vendor/aosp/prebuilt/fonts/fontagev3/Volte-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Volte-Medium.ttf \
+    vendor/aosp/prebuilt/fonts/roboto-slab/RobotoSlab-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/RobotoSlab-Regular.ttf \
+    vendor/aosp/prebuilt/fonts/roboto-slab/RobotoSlab-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/RobotoSlab-Medium.ttf \
+    vendor/aosp/prebuilt/fonts/arbutus-slab/ArbutusSlab-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ArbutusSlab-Regular.ttf \
+    vendor/aosp/prebuilt/fonts/noto-serif/NotoSerif-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/NotoSerif-Regular.ttf
 
 # Strip the local variable table and the local variable type table to reduce
 # the size of the system image. This has no bearing on stack traces, but will
