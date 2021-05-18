@@ -20,3 +20,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     ArcaneWallpapers 
+    
+# Retro Music
+PRODUCT_PACKAGES += \
+    Music
