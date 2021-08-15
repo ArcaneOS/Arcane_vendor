@@ -150,6 +150,8 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/fonts/fontagev3/Gravity-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Gravity-Regular.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/IgnazioText-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/IgnazioText-Regular.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/Inter-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Regular.ttf \
+    vendor/aosp/prebuilt/fonts/fontagev3/Inter-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Italic.ttf \
+    vendor/aosp/prebuilt/fonts/fontagev3/Inter-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Medium.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/Inter-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-MediumItalic.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/JakartaPlus-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/JakartaPlus-Medium.ttf \
     vendor/aosp/prebuilt/fonts/fontagev3/JakartaPlus-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/JakartaPlus-Regular.ttf \
