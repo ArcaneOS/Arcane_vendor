@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     FontGoogleSansRobotoOverlay \
     AccentColorArcaneOverlay \
     AccentColorParanoidOverlay \
+    AccentColorPrimerBlueOverlay \
     FontSamOverlay \
     FontVictorOverlay
 
