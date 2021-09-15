@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
     FontArvoLatoOverlay \
     FontKaiOverlay \
     FontRubikRubikOverlay \
+    FontGoogleSansRobotoOverlay \
     FontSamOverlay \
     FontVictorOverlay
 
