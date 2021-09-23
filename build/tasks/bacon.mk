@@ -1,6 +1,6 @@
 # Copyright (C) 2017 Unlegacy-Android
 # Copyright (C) 2017,2020 The LineageOS Project
-# Copyright (C) 2018,2020 The PixelExperience Project
+# Copyright (C) 2018,2020 The ArcaneOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,3 +23,4 @@ bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(CUSTOM_TARGET_PACKAGE)
 	$(hide) $(MD5) $(CUSTOM_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(CUSTOM_TARGET_PACKAGE).md5sum
 	@echo "Package Complete: $(CUSTOM_TARGET_PACKAGE)" >&2
+	 @echo "Glorious Invocation! ArcaneOS now casted!" >&2
