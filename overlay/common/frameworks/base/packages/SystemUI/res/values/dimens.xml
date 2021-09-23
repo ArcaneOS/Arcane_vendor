@@ -17,4 +17,9 @@
 -->
 <resources>
     <dimen name="rounded_corner_content_padding">8dp</dimen>
+    
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_handle_radius">1.8dp</dimen>
+    <dimen name="navigation_home_handle_width">137dp</dimen>
+    <dimen name="max_window_blur_radius">50dp</dimen>
 </resources>
