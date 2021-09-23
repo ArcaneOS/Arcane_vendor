@@ -30,4 +30,11 @@
     
      <!-- The number of columns in the QuickSettings -->
     <integer name="quick_settings_num_columns">4</integer>
+    
+    <!-- SystemUI Plugins that can be loaded on user builds. -->
+    <string-array name="config_pluginWhitelist" translatable="false">
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+    </string-array>
+        
 </resources>
