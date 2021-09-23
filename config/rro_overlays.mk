@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
     FontRubikRubikOverlay \
     FontGoogleSansRobotoOverlay \
     AccentColorArcaneOverlay \
+    AccentColorParanoidOverlay \
     FontSamOverlay \
     FontVictorOverlay
 
