@@ -80,6 +80,9 @@
     <!-- Corner radius for bottom sheet system dialogs -->
     <dimen name="config_bottomDialogCornerRadius">32.0dip</dimen>
     
+    <!-- Corner radius of search bars and cards -->
+    <dimen name="config_cardCornerRadius">32.0dip</dimen>
+    
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
     
