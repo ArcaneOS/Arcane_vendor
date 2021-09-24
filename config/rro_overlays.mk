@@ -19,9 +19,6 @@ PRODUCT_PACKAGES += \
     AccentColorPrimerBlueOverlay \
     FontSamOverlay \
     FontVictorOverlay
-
-PRODUCT_PACKAGES += \
-    ArcaneWallpapers 
     
 # Retro Music
 PRODUCT_PACKAGES += \
