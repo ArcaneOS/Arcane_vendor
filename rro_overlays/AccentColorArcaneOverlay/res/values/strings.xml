@@ -18,5 +18,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Green accent color name application label. [CHAR LIMIT=50] -->
-    <string name="accent_color_paranoid" translatable="false">Paranoid</string>
+    <string name="accent_color_arcane" translatable="false">Arcane</string>
 </resources>

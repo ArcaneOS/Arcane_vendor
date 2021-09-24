@@ -13,8 +13,8 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "AccentColorParanoidOverlay",
+    name: "AccentColorArcaneOverlay",
     product_specific: true,
     sdk_version: "current",
-    theme: "AccentColorParanoid",
+    theme: "AccentColorArcane",
 }
