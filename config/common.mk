@@ -183,6 +183,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_readahead_enable=true \
     ro.iorapd.enable=true
 
+# Disable Deep Press touch video heatmaps 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.input.video_enabled=false
+    
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
 ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
