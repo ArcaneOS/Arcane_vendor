@@ -59,5 +59,11 @@ PRODUCT_PACKAGES += \
     Barlow-Bold.ttf \
     Barlow-Medium.ttf
 
+# Oneplus Slate
+PRODUCT_PACKAGES += \
+    SlateForOnePlus-Book.ttf \
+    SlateForOnePlus-Medium.ttf \
+    SlateForOnePlus-Regular.ttf
+    
 PRODUCT_COPY_FILES += \
     vendor/aosp/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
