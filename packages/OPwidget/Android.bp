@@ -1,0 +1,8 @@
+android_app_import {
+    name: "OPwidget",
+    apk: "OPwidget.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}

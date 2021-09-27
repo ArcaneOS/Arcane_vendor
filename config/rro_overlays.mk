@@ -30,4 +30,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SimpleGallery \
     Arcanary \
+    OPwidget \
     Music
