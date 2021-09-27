@@ -4,6 +4,9 @@ PRODUCT_PACKAGES += \
     FilesOverlay \
     PixelDocumentsUIGoogleOverlay \
     GBoardOverlay \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden \
     IconPackCircularPixelLauncherOverlay \
     IconPackCircularPixelThemePickerOverlay \
     IconPackFilledPixelLauncherOverlay \
@@ -26,9 +29,3 @@ PRODUCT_PACKAGES += \
 # Retro Music
 PRODUCT_PACKAGES += \
     Music
-
-# Overlays
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden
