@@ -28,4 +28,5 @@ PRODUCT_PACKAGES += \
     
 # Retro Music
 PRODUCT_PACKAGES += \
+    SimpleGallery \
     Music
