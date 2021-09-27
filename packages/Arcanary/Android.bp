@@ -1,0 +1,8 @@
+android_app_import {
+    name: "Arcanary",
+    apk: "Arcanary.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
