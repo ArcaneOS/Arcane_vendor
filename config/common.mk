@@ -124,6 +124,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     NexusLauncherRelease
 
+# Arcane Packages
+PRODUCT_PACKAGES += \
+    ThemePicker
+    
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
