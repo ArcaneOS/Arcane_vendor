@@ -85,5 +85,9 @@
     
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
-    
+
+    <!-- Force enable styles -->
+    <string-array name="config_forceEnabledComponents" translatable="false">
+        <item>com.google.android.apps.wallpaper/com.android.customization.picker.CustomizationPickerActivity</item>
+    </string-array>
 </resources>
