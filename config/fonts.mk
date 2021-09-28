@@ -64,6 +64,21 @@ PRODUCT_PACKAGES += \
     SlateForOnePlus-Book.ttf \
     SlateForOnePlus-Medium.ttf \
     SlateForOnePlus-Regular.ttf
+
+# Harmony Sans
+PRODUCT_PACKAGES += \
+    HarmonyOSSans-BlackItalic.ttf \
+    HarmonyOSSans-Black.ttf \
+    HarmonyOSSans-BoldItalic.ttf \
+    HarmonyOSSans-Bold.ttf \
+    HarmonyOSSans-Italic.ttf \
+    HarmonyOSSans-LightItalic.ttf \
+    HarmonyOSSans-Light.ttf \
+    HarmonyOSSans-MediumItalic.ttf \
+    HarmonyOSSans-Medium.ttf \
+    HarmonyOSSans-Regular.ttf \
+    HarmonyOSSans-ThinItalic.ttf \
+    HarmonyOSSans-Thin.ttf \
     
 PRODUCT_COPY_FILES += \
     vendor/aosp/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml

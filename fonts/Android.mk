@@ -45,6 +45,20 @@ font_src_files := \
     SlateForOnePlus-Book.ttf \
     SlateForOnePlus-Medium.ttf \
     SlateForOnePlus-Regular.ttf
+
+font_src_files := \
+    HarmonyOSSans-BlackItalic.ttf \
+    HarmonyOSSans-Black.ttf \
+    HarmonyOSSans-BoldItalic.ttf \
+    HarmonyOSSans-Bold.ttf \
+    HarmonyOSSans-Italic.ttf \
+    HarmonyOSSans-LightItalic.ttf \
+    HarmonyOSSans-Light.ttf \
+    HarmonyOSSans-MediumItalic.ttf \
+    HarmonyOSSans-Medium.ttf \
+    HarmonyOSSans-Regular.ttf \
+    HarmonyOSSans-ThinItalic.ttf \
+    HarmonyOSSans-Thin.ttf \
     
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
