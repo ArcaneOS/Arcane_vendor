@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/audio/notifications/Tweeter.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tweeter.ogg \
     vendor/aosp/audio/notifications/Twinkle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Twinkle.ogg \
     vendor/aosp/audio/notifications/Dong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Dong.ogg \
+    vendor/aosp/audio/notifications/Spaceline.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Spaceline.ogg \
+    vendor/aosp/audio/notifications/oneplus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/oneplus.ogg \
     vendor/aosp/audio/ringtones/Copycat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Copycat.ogg \
     vendor/aosp/audio/ringtones/Crackle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Crackle.ogg \
     vendor/aosp/audio/ringtones/Flutterby.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Flutterby.ogg \
@@ -37,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/audio/ringtones/Lost_and_found.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lost_and_found.ogg \
     vendor/aosp/audio/ringtones/Mash_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Mash_up.ogg \
     vendor/aosp/audio/ringtones/Monkey_around.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Monkey_around.ogg \
+    vendor/aosp/audio/ringtones/oneplusring.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/oneplusring.ogg \
     vendor/aosp/audio/ringtones/Schools_out.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Schools_out.ogg \
     vendor/aosp/audio/ringtones/The_big_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/The_big_adventure.ogg \
     vendor/aosp/audio/ringtones/Zen_too.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Zen_too.ogg \
@@ -71,6 +74,6 @@ PRODUCT_COPY_FILES += \
 
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=Gurenge.ogg \
-    ro.config.notification_sound=Dong.ogg \
+    ro.config.ringtone=oneplusring.ogg \
+    ro.config.notification_sound=oneplus.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
