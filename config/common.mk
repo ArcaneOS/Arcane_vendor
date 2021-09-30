@@ -127,6 +127,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Arcane Packages
 PRODUCT_PACKAGES += \
     ThemePicker \
+    StitchImage \
     ArcaneThemesStub
     
 # SystemUI plugins
