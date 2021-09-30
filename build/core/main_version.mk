@@ -41,8 +41,8 @@ TARGET_PRODUCT_SHORT := $(subst aosp_,,$(CUSTOM_BUILD))
 CUSTOM_VERSION := ArcaneOS_$(CUSTOM_DEVICE)-$(CUSTOM_VERSION_PROP)-$(CUSTOM_BUILD_TYPE)-$(CUSTOM_BUILD_DATE)
 
 ADDITIONAL_BUILD_PROPERTIES += \
-    org.pixelexperience.version=$(CUSTOM_PLATFORM_VERSION).$(CUSTOM_VERSION_PROP) \
-    org.pixelexperience.version.display=$(CUSTOM_VERSION) \
-    org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
-    org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
+    org.arcane.version=$(CUSTOM_VERSION_PROP) \
+    org.arcane.version.display=$(CUSTOM_VERSION) \
+    org.arcane.build_date=$(CUSTOM_BUILD_DATE) \
+    org.arcane.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.arcane.build_type=$(CUSTOM_BUILD_TYPE)
