@@ -30,6 +30,6 @@ PRODUCT_PACKAGES += \
 # Retro Music
 PRODUCT_PACKAGES += \
     SimpleGallery \
-    Arcanary \
+    Arcanery \
     OPwidget \
     Music
