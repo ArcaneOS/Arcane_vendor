@@ -31,8 +31,8 @@
 
     <color name="background_floating_device_default_dark">@color/primary_device_default_dark</color>
     
-    <color name="accent_device_default_light">#ff4f9a94</color>
-    <color name="accent_device_default_dark">#ff80cbc4</color>
+    <color name="accent_device_default_light">#0366d6</color>
+    <color name="accent_device_default_dark">#58a6ff</color>
     
 </resources>
 
