@@ -35,5 +35,6 @@
     <color name="accent_device_default_light">#0366d6</color>
     <color name="accent_device_default_dark">#58a6ff</color>
     
+    <color name="list_divider_color_dark">#404043</color>
 </resources>
 
