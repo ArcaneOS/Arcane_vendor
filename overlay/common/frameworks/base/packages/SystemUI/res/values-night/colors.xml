@@ -23,10 +23,11 @@
     <color name="notification_divider_color">@*android:color/tertiary_device_default_dark</color>
 
     <!-- The color of the background in the top part of QSCustomizer -->
-    <color name="qs_customize_background">@*android:color/primary_device_default_dark</color>
+    <color name="qs_customize_background">#111111</color>
 
     <!-- The color of the background in the bottom part of QSCustomizer -->
-    <color name="qs_customize_decoration">@*android:color/primary_device_default_dark</color>
+    <color name="qs_customize_decoration">#1b1b1b</color>
+    <color name="GM2_grey_800">#202020</color>
 
     <!-- Biometric dialog colors -->
     <color name="biometric_dialog_accent">@*android:color/accent_device_default_dark</color>
