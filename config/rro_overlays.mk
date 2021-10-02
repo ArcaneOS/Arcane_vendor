@@ -21,9 +21,7 @@ PRODUCT_PACKAGES += \
     AccentColorArcaneOverlay \
     AccentColorParanoidOverlay \
     AccentColorPrimerBlueOverlay \
-    FontOnePlusSlateOverlay \
     FontHarmonyOSSansOverlay \
-    FontGoogleSansOverlay \
     FontSamOverlay \
     FontVictorOverlay
     

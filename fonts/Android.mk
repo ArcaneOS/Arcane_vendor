@@ -42,11 +42,6 @@ font_src_files := \
     GoogleSans-Regular.ttf
 
 font_src_files := \
-    SlateForOnePlus-Book.ttf \
-    SlateForOnePlus-Medium.ttf \
-    SlateForOnePlus-Regular.ttf
-
-font_src_files := \
     HarmonyOSSans-BlackItalic.ttf \
     HarmonyOSSans-Black.ttf \
     HarmonyOSSans-BoldItalic.ttf \

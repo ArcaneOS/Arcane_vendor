@@ -90,4 +90,5 @@
     <string-array name="config_forceEnabledComponents" translatable="false">
         <item>com.google.android.apps.wallpaper/com.android.customization.picker.CustomizationPickerActivity</item>
     </string-array>
+    
 </resources>

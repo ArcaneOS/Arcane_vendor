@@ -59,12 +59,6 @@ PRODUCT_PACKAGES += \
     Barlow-Bold.ttf \
     Barlow-Medium.ttf
 
-# Oneplus Slate
-PRODUCT_PACKAGES += \
-    SlateForOnePlus-Book.ttf \
-    SlateForOnePlus-Medium.ttf \
-    SlateForOnePlus-Regular.ttf
-
 # Harmony Sans
 PRODUCT_PACKAGES += \
     HarmonyOSSans-BlackItalic.ttf \
