@@ -14,7 +14,7 @@
 <resources>
     <style name="Theme.DeviceDefault.QuickSettings" parent="Theme.DeviceDefault">
         <!-- QS panel background -->
-        <item name="colorBackgroundFloating">@*android:color/primary_device_default_dark</item>
+       <item name="android:colorBackgroundFloating">@color/notification_material_background_color</item>
 
         <!-- volume background -->
         <item name="panelColorBackground">@*android:color/primary_device_default_dark</item>
