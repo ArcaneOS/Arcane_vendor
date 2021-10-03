@@ -1,0 +1,9 @@
+android_app_import {
+    name: "GcamGo",
+    apk: "GcamGo.apk",
+    presigned: true,
+    overrides: ["Camera2"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
