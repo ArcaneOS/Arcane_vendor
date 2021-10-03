@@ -66,16 +66,16 @@
     
     <!-- ArcaneOS Rounded UI -->
     <dimen name="config_dialogCornerRadius">28.0dip</dimen>
-    <dimen name="config_buttonCornerRadius">28.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">32.0dip</dimen>
     <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
-    <dimen name="control_corner_material">28.0dip</dimen>
-    <dimen name="progress_bar_corner_material">28.0dip</dimen>
-    <dimen name="subtitle_corner_radius">28.0dip</dimen>
-    <dimen name="subtitle_shadow_radius">28.0dip</dimen>
+    <dimen name="control_corner_material">32.0dip</dimen>
+    <dimen name="progress_bar_corner_material">32.0dip</dimen>
+    <dimen name="subtitle_corner_radius">32.0dip</dimen>
+    <dimen name="subtitle_shadow_radius">32.0dip</dimen>
     <dimen name="dialog_corner_radius">28.0dip</dimen>
-    <dimen name="chooser_corner_radius">28.0dip</dimen>
-    <dimen name="default_magnifier_corner_radius">28.0dip</dimen>
-    <dimen name="tooltip_corner_radius">28.0dip</dimen>
+    <dimen name="chooser_corner_radius">32.0dip</dimen>
+    <dimen name="default_magnifier_corner_radius">32.0dip</dimen>
+    <dimen name="tooltip_corner_radius">32.0dip</dimen>
 
     <!-- Corner radius for bottom sheet system dialogs -->
     <dimen name="config_bottomDialogCornerRadius">32.0dip</dimen>
