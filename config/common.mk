@@ -119,11 +119,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NavigationBarNoHintOverlay
 
-# Dex preopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    NexusLauncherRelease
-
 # Arcane Packages
 PRODUCT_PACKAGES += \
     ThemePicker \
@@ -228,6 +223,9 @@ $(call inherit-product, vendor/gapps/config.mk)
 
 # OTA
 #$(call inherit-product, vendor/aosp/config/ota.mk)
+
+# Inherit dalvik options
+include vendor/aosp/config/dalvik.mk
 
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
