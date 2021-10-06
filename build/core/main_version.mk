@@ -2,7 +2,7 @@
 ifeq ($(BUILD_FINGERPRINT),)
 BUILD_NUMBER_CUSTOM := $(shell date -u +%H%M)
 CUSTOM_DEVICE ?= $(TARGET_DEVICE)
-ifneq ($(filter OFFICIAL,$(CUSTOM_BUILD_TYPE)),)
+ifneq ($(filter OFFICIAL,$(ARCANE_BUILD_TYPE)),)
 BUILD_SIGNATURE_KEYS := release-keys
 else
 BUILD_SIGNATURE_KEYS := test-keys
@@ -20,9 +20,9 @@ endif
 
 # build type
 ifeq ($(BUILD_TYPE_IS_OFFICIAL),true)
-CUSTOM_BUILD_TYPE ?= OFFICIAL
+ARCANE_BUILD_TYPE ?= OFFICIAL
 else
-CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+ARCANE_BUILD_TYPE ?= UNOFFICIAL
 endif
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
@@ -38,11 +38,11 @@ CUSTOM_VERSION_PROP := Wex
 
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(CUSTOM_BUILD))
 
-CUSTOM_VERSION := ArcaneOS_$(CUSTOM_DEVICE)-$(CUSTOM_VERSION_PROP)-$(CUSTOM_BUILD_TYPE)-$(CUSTOM_BUILD_DATE)
+CUSTOM_VERSION := ArcaneOS_$(CUSTOM_DEVICE)-$(CUSTOM_VERSION_PROP)-$(ARCANE_BUILD_TYPE)-$(CUSTOM_BUILD_DATE)
 
 ADDITIONAL_BUILD_PROPERTIES += \
     org.arcane.version=$(CUSTOM_VERSION_PROP) \
     org.arcane.version.display=$(CUSTOM_VERSION) \
     org.arcane.build_date=$(CUSTOM_BUILD_DATE) \
     org.arcane.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.arcane.build_type=$(CUSTOM_BUILD_TYPE)
+    org.arcane.build_type=$(ARCANE_BUILD_TYPE)
