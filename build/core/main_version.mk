@@ -18,8 +18,12 @@ ADDITIONAL_BUILD_PROPERTIES += \
     persist.sys.recovery_update=true
 endif
 
-# Force official 
+# build type
+ifeq ($(BUILD_TYPE_IS_OFFICIAL),true)
 CUSTOM_BUILD_TYPE ?= OFFICIAL
+else
+CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+endif
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
