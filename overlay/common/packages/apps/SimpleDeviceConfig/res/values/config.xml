@@ -65,6 +65,9 @@
         <item>device_personalization_services/NotificationAssistant__enable_service=false</item>
         <item>device_personalization_services/VisualCortex__enable=false</item>
 
+        <!-- Allow more cached apps in the background -->
+        <item>activity_manager/max_cached_processes=64</item>
+        
         <!-- Disable federated learning -->
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_fa=false</item>
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_min_training_interval=false</item>
