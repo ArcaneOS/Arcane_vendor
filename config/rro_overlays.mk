@@ -30,4 +30,6 @@ PRODUCT_PACKAGES += \
     SimpleGallery \
     Arcanery \
     OPwidget \
+    CalculatorGoogle \
+    ClockGoogle \
     Music

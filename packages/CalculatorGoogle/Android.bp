@@ -1,0 +1,9 @@
+android_app_import {
+    name: "CalculatorGoogle",
+    apk: "CalculatorGoogle.apk",
+    presigned: true,
+    overrides: ["CalculatorGooglePrebuilt"],
+    dex_preopt: {
+        enabled: false,
+    },
+}

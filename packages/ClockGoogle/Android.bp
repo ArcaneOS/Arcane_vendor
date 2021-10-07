@@ -1,0 +1,9 @@
+android_app_import {
+    name: "ClockGoogle",
+    apk: "ClockGoogle.apk",
+    presigned: true,
+    overrides: ["CalendarGooglePrebuilt"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
