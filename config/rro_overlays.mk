@@ -32,4 +32,5 @@ PRODUCT_PACKAGES += \
     OPwidget \
     CalculatorGoogle \
     ClockGoogle \
+    GcamGo \
     Music

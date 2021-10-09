@@ -124,12 +124,6 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     StitchImage \
     ArcaneThemesStub
-    
-# GCAM Go
-ifneq ($(TARGET_USE_AOSP_CAM),true)
-PRODUCT_PACKAGES += \
-    GcamGo
-endif
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
