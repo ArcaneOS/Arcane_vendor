@@ -17,7 +17,6 @@ PRODUCT_PACKAGES += \
     FontArvoLatoOverlay \
     FontKaiOverlay \
     FontRubikRubikOverlay \
-    FontGoogleSansRobotoOverlay \
     AccentColorArcaneOverlay \
     AccentColorParanoidOverlay \
     AccentColorPrimerBlueOverlay \
