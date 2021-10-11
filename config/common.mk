@@ -191,6 +191,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Disable Deep Press touch video heatmaps 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.input.video_enabled=false
+
+# ArcaneOS Versioning
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.arcane.version=3.0 \
+    ro.arcane.device_name=$(ARCANE_DEVICE) \
+    ro.arcane.maintainer=$(ARCANE_MAINTAINER)
     
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
