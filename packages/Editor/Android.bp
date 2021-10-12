@@ -1,0 +1,9 @@
+android_app_import {
+    name: "Editor",
+    apk: "Editor.apk",
+    presigned: true,
+    overrides: ["MarkupGoogle"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
