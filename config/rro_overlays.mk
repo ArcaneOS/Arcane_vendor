@@ -33,5 +33,4 @@ PRODUCT_PACKAGES += \
     CalculatorGoogle \
     ClockGoogle \
     GcamGo \
-    Editor \
-    Music
+    Editor
