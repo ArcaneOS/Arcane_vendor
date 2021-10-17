@@ -74,20 +74,5 @@ PRODUCT_PACKAGES += \
     HarmonyOSSans-ThinItalic.ttf \
     HarmonyOSSans-Thin.ttf \
     
-# SamsungOne family
-PRODUCT_PACKAGES += \
-    SamsungOne-Thin.ttf \
-    SamsungOne-ThinItalic.ttf \
-    SamsungOne-Light.ttf \
-    SamsungOne-LightItalic.ttf \
-    SamsungOne-Regular.ttf \
-    SamsungOne-Italic.ttf \
-    SamsungOne-Medium.ttf \
-    SamsungOne-MediumItalic.ttf \
-    SamsungOne-Black.ttf \
-    SamsungOne-BlackItalic.ttf \
-    SamsungOne-Bold.ttf \
-    SamsungOne-BoldItalic.ttf
-
 PRODUCT_COPY_FILES += \
     vendor/aosp/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml

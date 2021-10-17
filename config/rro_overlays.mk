@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     AccentColorPrimerBlueOverlay \
     FontHarmonyOSSansOverlay \
     FontSamOverlay \
-    FontSamsungOneOverlay \
     FontVictorOverlay
     
 # Retro Music

@@ -55,20 +55,6 @@ font_src_files := \
     HarmonyOSSans-ThinItalic.ttf \
     HarmonyOSSans-Thin.ttf \
     
-font_src_files := \
-    SamsungOne-Thin.ttf \
-    SamsungOne-ThinItalic.ttf \
-    SamsungOne-Light.ttf \
-    SamsungOne-LightItalic.ttf \
-    SamsungOne-Regular.ttf \
-    SamsungOne-Italic.ttf \
-    SamsungOne-Medium.ttf \
-    SamsungOne-MediumItalic.ttf \
-    SamsungOne-Black.ttf \
-    SamsungOne-BlackItalic.ttf \
-    SamsungOne-Bold.ttf \
-    SamsungOne-BoldItalic.ttf
-    
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
 build-one-font-module :=
