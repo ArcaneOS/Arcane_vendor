@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
 # Arcane Packages
 PRODUCT_PACKAGES += \
     ThemePicker \
+    Dialer \
     StitchImage \
     ArcaneThemesStub
 
