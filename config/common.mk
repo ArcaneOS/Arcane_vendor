@@ -195,7 +195,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # ArcaneOS Versioning
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.arcane.version=3.0 \
+    ro.arcane.version=3.1 \
     ro.arcane.device_name=$(ARCANE_DEVICE) \
     ro.arcane.maintainer=$(ARCANE_MAINTAINER)
     
