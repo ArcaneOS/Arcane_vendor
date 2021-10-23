@@ -24,12 +24,11 @@ PRODUCT_PACKAGES += \
     FontSamOverlay \
     FontVictorOverlay
     
-# Retro Music
+# Prebuilt Apps
 PRODUCT_PACKAGES += \
     SimpleGallery \
     Arcanery \
     OPwidget \
     CalculatorGoogle \
     ClockGoogle \
-    GcamGo \
-    Editor
+    GcamGo

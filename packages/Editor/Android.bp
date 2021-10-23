@@ -1,8 +1,0 @@
-android_app_import {
-    name: "Editor",
-    apk: "Editor.apk",
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-}
