@@ -366,6 +366,9 @@ $(call inherit-product, vendor/gapps/config.mk)
 # Plugins
 include packages/apps/Plugins/plugins.mk
 
+# Call the overlays folder to build all the rest
+include packages/overlays/Shishufied/shishu.mk
+
 # OTA
 #$(call inherit-product, vendor/aosp/config/ota.mk)
 
