@@ -6,24 +6,8 @@ PRODUCT_PACKAGES += \
     GBoardOverlay \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden \
-    IconPackCircularPixelLauncherOverlay \
-    IconPackCircularPixelThemePickerOverlay \
-    IconPackFilledPixelLauncherOverlay \
-    IconPackFilledPixelThemePickerOverlay \
-    IconPackRoundedPixelLauncherOverlay \
-    IconPackRoundedPixelThemePickerOverlay \
-    FontArbutusSourceOverlay \
-    FontArvoLatoOverlay \
-    FontKaiOverlay \
-    FontRubikRubikOverlay \
-    AccentColorArcaneOverlay \
-    AccentColorParanoidOverlay \
-    AccentColorPrimerBlueOverlay \
-    FontHarmonyOSSansOverlay \
-    FontSamOverlay \
-    FontVictorOverlay
-    
+    GesturalNavigationOverlayHidden
+
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
     SimpleGallery \
