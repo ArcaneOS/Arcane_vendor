@@ -86,4 +86,11 @@
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
     
+    <string name="config_headlineFontFamily">googlesans-sys</string>
+
+    <!-- Name of the font family used for system surfaces where the font should use medium weight -->
+    <string name="config_headlineFontFamilyMedium">googlesans-medium</string>
+
+    <!-- Allows setting custom fontFeatureSettings on specific text. -->
+    <string name="config_headlineFontFeatureSettings">ss03</string>
 </resources>
