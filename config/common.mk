@@ -352,7 +352,7 @@ endif
 
 # ArcaneOS Versioning
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.arcane.version=3.5 \
+    ro.arcane.version=4.0 \
     ro.arcane.device_name=$(ARCANE_DEVICE) \
     ro.arcane.maintainer=$(ARCANE_MAINTAINER)
     

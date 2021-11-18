@@ -24,7 +24,7 @@ else
 ARCANE_BUILD_TYPE ?= UNOFFICIAL
 endif
 
-PLATFORM_ARCANE_CODENAME := EXORT
+PLATFORM_ARCANE_CODENAME := JINX
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
 CUSTOM_DATE_DAY := $(shell date -u +%d)
